@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Person from './Person';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Person name ="Robert" project="Project"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        
       </header>
     </div>
   );
