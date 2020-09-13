@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Person from './components/Person';
 import Product from './components/Product';
 //import Description from './components/Description';
