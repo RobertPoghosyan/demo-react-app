@@ -1,27 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Person from './Person';
-import Product from './Product';
+import Person from './components/Person';
+import Product from './components/Product';
+//import Description from './components/Description';
+//import Price from './components/Price';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Person name ="Robert" project="Project"/>
-      <Product name ="Apricot" price="2$" description="The best apricots from Armenia"/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Person name ="Robert" project="Great Project"/>
+        <Product fruits ="Apricot" price = "2$" description="The best apricots from Armenia" />
+        
+        
+        
         
       </header>
     </div>
