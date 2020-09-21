@@ -16,6 +16,18 @@ class ToDo extends Component {
     }
 
     addTask = task => {
+
+        this.setState( {
+            tasks: [...this.state.tasks, {
+               id: this.state.tasks.length !==0 ? this.state.tasks.length:0,
+                title:task,
+                done:false
+            }]
+            
+        })
+    }
+
+   /* addTask = task => {
         this.setState(state => {
             let {tasks} = state;
             tasks.push( {
@@ -26,6 +38,7 @@ class ToDo extends Component {
             return tasks;
         })
     }
+    */
     doneTask = id => {
         const index = this.state.tasks.map (task => task.id).indexOf (id);
         this.setState(state => {
