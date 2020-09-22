@@ -11,6 +11,8 @@ function App() {
         <Person name ="Robert" project="Great Project"/>
         <Product fruits ="Apricot" price = "2$" description="The best apricots from Armenia" />
         <Lesson6 />
+        
+        
       </header>
     </div>
   );
