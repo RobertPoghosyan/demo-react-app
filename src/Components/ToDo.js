@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Task from './Task';
 import TaskInput from './TaskInput';
-import './style.css';
+import '../Styles/style.css';
 
 class ToDo extends Component {
     constructor (){
