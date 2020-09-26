@@ -1,6 +1,6 @@
 import React from 'react';
 import Person from './components/Person';
-import Product fr"om './components/Product';
+import Product from './components/Product';
 import Lesson6 from './lesson6/Lesson6'
 
 
